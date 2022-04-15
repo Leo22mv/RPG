@@ -1,0 +1,162 @@
+#fondo {
+    background: skyblue;
+    width: 1750px;
+    height: 742px;
+}
+#suelo {
+    background: green;
+    width: 1750px;
+    height: 144px;
+    position: relative;
+    top: 576px;
+}
+#primerpiso {
+    background: green;
+    width: 600px;
+    height: 20px;
+    position: relative;
+    top: 302px;
+    left: 62px;
+}
+#segundopiso {
+    background: green;
+    width: 600px;
+    height: 20px;
+    position: relative;
+    top: 152px;
+    left: 462px;
+}
+#tercerpiso {
+    background: green;
+    width: 600px;
+    height: 20px;
+    position: relative;
+    top: 2px;
+    left: 95px;
+}
+#cuartopiso {
+    background: green;
+    width: 700px;
+    height: 20px;
+    position: relative;
+    bottom: 148px;
+    left: 580px;
+}
+#player {
+    background: black;
+    width: 25px;
+    height: 70px;
+    position: relative;
+    top: 576px;
+    left: 100px;
+    transition: all 0.3s;
+}
+#vida {
+    position: relative;
+    bottom: 20px;
+    right: 33px;
+    width: 200px;
+}
+#arma {
+    background: grey;
+    border: 2px solid red;
+    width: 30px;
+    height: 10px;
+    position: relative;
+    transition: all 0.3s;
+}
+#enemigo {
+    background-color: black;
+    width: 25px;
+    height: 70px;
+    position: relative;
+    top: 266px;
+    left: 967px;
+    transition: all 0.3s;
+}
+#vidaene {
+    background: black;
+    border: 1px solid white;
+    color: white;
+    position: relative;
+    top: 75px;
+    right: 33px;
+    width: 100px;
+}
+#enemigo2 {
+    background-color: black;
+    width: 25px;
+    height: 70px;
+    position: relative;
+    bottom: 340px; 
+    left: 1192px;
+    transition: all 0.3s;
+}
+#vidaene2 {
+    background: black;
+    border: 1px solid white;
+    color: white;
+    position: relative;
+    top: 75px;
+    right: 33px;
+    width: 100px;
+}
+#adelante {
+    background: wheat;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 44px;
+}
+#atras {
+    background: wheat;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 260px;
+    bottom: 156px;
+}
+#saltar {
+    background: wheat;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 130px;
+    bottom: 56px;
+
+}
+#bajar {
+    background: wheat;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 390px;
+    bottom: 256px;
+
+}
+#atacar {
+    background: wheat;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 1180px;
+    bottom: 356px;
+
+}
+#inv {
+    background: wheat;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 1050px;
+    bottom: 456px;
+
+}
+#puerta {
+    background-color: black;
+    width: 10px;
+    height: 80px;
+    position: relative;
+    top: 142px;
+    left: 1275px;
+}
