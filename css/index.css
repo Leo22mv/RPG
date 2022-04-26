@@ -1,0 +1,62 @@
+#fondo {
+    position: relative;
+    background: skyblue;
+    width: 1750px;
+    height: 742px;
+    bottom: 170px;
+}
+#suelo {
+    background: green;
+    width: 1750px;
+    height: 144px;
+    position: relative;
+    top: 140px;
+}
+#player {
+    background: black;
+    width: 25px;
+    height: 70px;
+    position: relative;
+    top: 140px;
+    left: 100px;
+    transition: all 0.3s;
+}
+#titulo {
+    position: relative;
+    background-color: darkblue;
+    width: 850px;
+    height: 250px;
+    color: white;
+    font-size: 260px;
+    font-family: 'Press Start 2P', cursive;
+    padding: 25px 0 0 85px;
+    left: 380px;
+}
+.ok {
+    text-align: center;
+    width: 250px;
+    background: green;
+    position: relative;
+    bottom: 350px;
+    margin: 0px auto;
+    color:white;
+}
+.error {
+    text-align: center;
+    width: 250px;
+    background: red;
+    position: relative;
+    bottom: 350px;
+    margin: 0px auto;
+    color:white;
+}
+#login {
+    position: relative;
+    left: 650px;
+    bottom: 150px;
+}
+.boton {
+    position: relative;
+    left: 1100px;
+    bottom: 171px;
+}

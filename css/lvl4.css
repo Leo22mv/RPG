@@ -12,67 +12,107 @@
 }
 #primerpiso {
     background: green;
-    width: 250px;
+    width: 55px;
     height: 20px;
     position: relative;
+    left: 1660px;
     top: 302px;
-    left: 662px;
 }
 #segundopiso {
     background: green;
-    width: 250px;
+    width: 55px;
     height: 20px;
     position: relative;
+    left: 1590px;
     top: 152px;
-    left: 512px;
 }
 #tercerpiso {
     background: green;
-    width: 250px;
+    width: 55px;
     height: 20px;
     position: relative;
+    left: 1660px;
     top: 2px;
-    left: 325px;
 }
 #cuartopiso {
     background: green;
-    width: 250px;
+    width: 55px;
     height: 20px;
     position: relative;
+    left: 1590px;
     bottom: 148px;
-    left: 110px;
 }
 #quintopiso {
     background: green;
-    width: 590px;
+    width: 75px;
     height: 20px;
     position: relative;
     bottom: 298px;
-    left: 210px;
+    left: 1675px;
 }
 #sextopiso {
     background: green;
-    width: 375px;
+    width: 30px;
     height: 20px;
     position: relative;
-    bottom: 188px;
-    left: 850px;
+    bottom: -202px;
+    left: 25px;
 }
 #septimopiso {
     background: green;
-    width: 525px;
+    width: 30px;
     height: 20px;
     position: relative;
     top: 52px;
-    left: 1225px;
+    left: 25px;
+}
+#octavopiso {
+    background: green;
+    width: 30px;
+    height: 20px;
+    position: relative;
+    bottom: 228px;
+    left: 25px;
+}
+#novenopiso {
+    background: green;
+    width: 370px;
+    height: 20px;
+    position: relative;
+    bottom: 378px;
+    left: 25px;
+}
+#decimopiso {
+    background: green;
+    width: 30px;
+    height: 20px;
+    position: relative;
+    top: -552px;
+    left: 25px;
+}
+#onceavopiso {
+    background: green;
+    width: 300px;
+    height: 20px;
+    position: relative;
+    bottom: 696px;
+    left: 370px;
+}
+#doceavopiso {
+    background: green;
+    width: 300px;
+    height: 20px;
+    position: relative;
+    bottom: 586px;
+    left: 590px;
 }
 #player {
     background: black;
     width: 25px;
     height: 70px;
     position: relative;
-    top: 576px;
-    left: 100px;
+    top: -74px;
+    left: 1675px;
     transition: all 0.3s;
 }
 #vida {
@@ -83,30 +123,30 @@
     font-size: x-large;
 }
 #arma {
-    top: 35px;
-    background: grey;
-    border: 2px solid red;
-    width: 30px;
-    height: 10px;
+    top: 0px;
+    background: darkblue;
+    border: 2px solid white;
+    width: 45px;
+    height: 8px;
     position: relative;
     transition: all 0.3s;
+    bottom: 35px;
 }
 #enemigo {
-    background-color: black;
+    background-color: rgb(80, 80, 80);
     width: 25px;
     height: 70px;
     position: relative;
-    top: 198px;
-    left: 367px;
+    top: 166px;
+    left: 749px;
     transition: all 0.3s;
 }
 #vidaene {
-    font-size: x-large;
+    background: black;
+    border: 1px solid white;
     position: relative;
     top: 75px;
     right: 33px;
-    background: black;
-    border: 1px solid white;
     width: 100px;
     color: white;
     /* font-size: 20px; */
@@ -116,37 +156,57 @@
     width: 25px;
     height: 70px;
     position: relative;
-    bottom: 416px; 
-    left: 1192px;
+    bottom: 310px; 
+    left: 824px;
     transition: all 0.3s;
+    /* visibility: hidden; */
 }
 #vidaene2 {
-    font-size: x-large;
+    background: black;
+    border: 1px solid white;
     position: relative;
     top: 75px;
     right: 33px;
+    width: 100px;
+    color: white;
+    z-index: 2; /*  se usa para superponer */
+    /* font-size: 20px; */
+}
+#enemigo3 {
+    background-color: rgb(80, 80, 80);
+    width: 25px;
+    height: 70px;
+    position: relative;
+    bottom: 36px; 
+    left: 970px;
+    transition: all 0.3s;
+    /* visibility: hidden; */
+}
+#vidaene3 {
     background: black;
     border: 1px solid white;
+    position: relative;
+    top: 75px;
+    right: 33px;
     width: 100px;
     color: white;
     /* font-size: 20px; */
 }
-#enemigo3 {
-    background-color: black;
+#enemigo4 {
+    background-color: rgb(80, 80, 80);
     width: 25px;
     height: 70px;
     position: relative;
-    bottom: 689px; 
-    left: 670px;
+    top: -156px;
+    left: 515px;
     transition: all 0.3s;
 }
-#vidaene3 {
-    font-size: x-large;
+#vidaene4 {
+    background: black;
+    border: 1px solid white;
     position: relative;
     top: 75px;
     right: 33px;
-    background: black;
-    border: 1px solid white;
     width: 100px;
     color: white;
     /* font-size: 20px; */
@@ -184,15 +244,6 @@
     bottom: 56px;
 
 }
-#bajar {
-    background: green;
-    width: 100px;
-    height: 100px;
-    position: relative;
-    left: 390px;
-    bottom: 256px;
-
-}
 #atacar {
     /* background-image: url("atacar.jpg"); */
      /* repeat-x 0px 0px;
@@ -219,17 +270,8 @@
     width: 10px;
     height: 80px;
     position: relative;
-    top: 402px;
-    left: 1745px;
-}
-#armita {
-    background: darkblue;
-    border: 2px solid white;
-    width: 8px;
-    height: 45px;
-    position: relative;
-    left: 518px;
-    bottom: 595px;
+    top: 272px;
+    left: 885px;
 }
 #armaen {
     border: 2px solid black;
@@ -238,7 +280,7 @@
     height: 10px;
     position: relative;
     right: 20px;
-    bottom: 60px;
+    bottom: 20px;
     transition: all 0.3s;
 }
 #iarma {
@@ -516,4 +558,40 @@
     bottom: 1359px;
     visibility: hidden;
     font-size: x-large;
+}
+#pechera1vida {
+    position: relative;
+    color: white;
+    background-color: black;
+    width: 100px;
+    left: 650px;
+    bottom: 1410px;
+    visibility: hidden;
+    font-size: x-large;
+}
+#vidita {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    top: 50px;
+    left: 1340px;
+}
+#pecherita {
+    position: relative;
+    width: 25px;
+    height: 30px;
+    background-color: white;
+    border: 2px solid black;
+    bottom: 78px;
+    left: 1410px;
+}
+#pechera {
+    position: relative;
+    width: 25px;
+    height: 30px;
+    background-color: white;
+    border: 2px solid black;
+    bottom: -18px;
+    right: 2px;
+    visibility: hidden;
 }

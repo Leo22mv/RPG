@@ -36,7 +36,7 @@
 }
 #cuartopiso {
     background: green;
-    width: 700px;
+    width: 1170px;
     height: 20px;
     position: relative;
     bottom: 148px;
@@ -52,16 +52,18 @@
     transition: all 0.3s;
 }
 #vida {
-    position: relative;
-    bottom: 20px;
-    right: 33px;
+    position: absolute;
+    bottom: 45px;
     width: 200px;
+    left: -45px;
+    font-size: x-large;
 }
 #arma {
-    background: grey;
-    border: 2px solid red;
+    top: 35px;
     width: 30px;
     height: 10px;
+    background: grey;
+    border: 2px solid red;
     position: relative;
     transition: all 0.3s;
 }
@@ -70,17 +72,18 @@
     width: 25px;
     height: 70px;
     position: relative;
-    top: 266px;
+    top: 282px;
     left: 967px;
     transition: all 0.3s;
 }
 #vidaene {
+    top: 50px;
+    right: -40px;
+    position: absolute;
+    font-size: x-large;
     background: black;
     border: 1px solid white;
     color: white;
-    position: relative;
-    top: 75px;
-    right: 33px;
     width: 100px;
 }
 #enemigo2 {
@@ -88,27 +91,28 @@
     width: 25px;
     height: 70px;
     position: relative;
-    bottom: 340px; 
+    bottom: 308px; 
     left: 1192px;
     transition: all 0.3s;
 }
 #vidaene2 {
+    top: 50px;
+    right: -40px;
+    position: absolute;
+    font-size: x-large;
     background: black;
     border: 1px solid white;
     color: white;
-    position: relative;
-    top: 75px;
-    right: 33px;
     width: 100px;
 }
-#adelante {
+#atras {
     background: wheat;
     width: 100px;
     height: 100px;
     position: relative;
     top: 44px;
 }
-#atras {
+#adelante {
     background: wheat;
     width: 100px;
     height: 100px;
@@ -126,7 +130,7 @@
 
 }
 #bajar {
-    background: wheat;
+    background: green;
     width: 100px;
     height: 100px;
     position: relative;
@@ -139,24 +143,294 @@
     width: 100px;
     height: 100px;
     position: relative;
-    left: 1180px;
+    left: 1650px;
     bottom: 356px;
 
 }
 #inv {
-    background: wheat;
+    background: grey;
     width: 100px;
     height: 100px;
     position: relative;
-    left: 1050px;
-    bottom: 456px;
+    left: 390px;
+    bottom: 256px;
 
 }
 #puerta {
-    background-color: black;
+    background-color: red;
     width: 10px;
     height: 80px;
     position: relative;
     top: 142px;
-    left: 1275px;
+    left: 1745px;
+}
+#iarma {
+    position: relative;
+    background: grey;
+    width: 0px;
+    height: 0px;
+    bottom: 456px;
+    left: 520px;
+}
+#icasco {
+    position: relative;
+    background: grey;
+    width: 0;
+    height: 0;
+    bottom: 556px;
+    left: 650px;
+}
+#ipechera {
+    position: relative;
+    background: grey;
+    width: 0;
+    height: 0;
+    bottom: 656px;
+    left: 780px;
+}
+#ibotas {
+    position: relative;
+    background: grey;
+    width: 0;
+    height: 0;
+    bottom: 756px;
+    left: 910px;
+}
+#arma1 {
+    position: relative;
+    background: grey;
+    width: 0;
+    height: 0;
+    bottom: 556px;
+    left: 650px;
+}
+#arma2 {
+    position: relative;
+    background: grey;
+    width: 0;
+    height: 0;
+    bottom: 656px;
+    left: 780px;
+}
+#arma3 {
+    position: relative;
+    background: grey;
+    width: 0;
+    height: 0;
+    bottom: 756px;
+    left: 910px;
+}
+#arma4 {
+    position: relative;
+    background: grey;
+    width: 0;
+    height: 0;
+    bottom: 856px;
+    left: 1040px;
+}
+#arma5 {
+    position: relative;
+    background: grey;
+    width: 0;
+    height: 0;
+    bottom: 956px;
+    left: 1170px;
+}
+#arma6 {
+    position: relative;
+    background: grey;
+    width: 0;
+    height: 0;
+    bottom: 1056px;
+    left: 1300px;
+}
+#arma7 {
+    position: relative;
+    background: grey;
+    width: 0;
+    height: 0;
+    bottom: 1156px;
+    left: 1430px;
+}
+#casco1 {
+    position: relative;
+    background: grey;
+    width: 0;
+    height: 0;
+    bottom: 556px;
+    left: 650px;
+}
+#casco2 {
+    position: relative;
+    background: grey;
+    width: 0;
+    height: 0;
+    bottom: 656px;
+    left: 780px;
+}
+#casco3 {
+    position: relative;
+    background: grey;
+    width: 0;
+    height: 0;
+    bottom: 756px;
+    left: 910px;
+}
+#casco4 {
+    position: relative;
+    background: grey;
+    width: 0;
+    height: 0;
+    bottom: 856px;
+    left: 1040px;
+}
+#casco5 {
+    position: relative;
+    background: grey;
+    width: 0;
+    height: 0;
+    bottom: 956px;
+    left: 1170px;
+}
+#casco6 {
+    position: relative;
+    background: grey;
+    width: 0;
+    height: 0;
+    bottom: 1056px;
+    left: 1300px;
+}
+#casco7 {
+    position: relative;
+    background: grey;
+    width: 0;
+    height: 0;
+    bottom: 1156px;
+    left: 1430px;
+}
+#pechera1 {
+    position: relative;
+    background: grey;
+    width: 0;
+    height: 0;
+    bottom: 556px;
+    left: 650px;
+}
+#pechera2 {
+    position: relative;
+    background: grey;
+    width: 0;
+    height: 0;
+    bottom: 656px;
+    left: 780px;
+}
+#pechera3 {
+    position: relative;
+    background: grey;
+    width: 0;
+    height: 0;
+    bottom: 756px;
+    left: 910px;
+}
+#pechera4 {
+    position: relative;
+    background: grey;
+    width: 0;
+    height: 0;
+    bottom: 856px;
+    left: 1040px;
+}
+#pechera5 {
+    position: relative;
+    background: grey;
+    width: 0;
+    height: 0;
+    bottom: 956px;
+    left: 1170px;
+}
+#pechera6 {
+    position: relative;
+    background: grey;
+    width: 0;
+    height: 0;
+    bottom: 1056px;
+    left: 1300px;
+}
+#pechera7 {
+    position: relative;
+    background: grey;
+    width: 0;
+    height: 0;
+    bottom: 1156px;
+    left: 1430px;
+}
+#botas1 {
+    position: relative;
+    background: grey;
+    width: 0;
+    height: 0;
+    bottom: 556px;
+    left: 650px;
+}
+#botas2 {
+    position: relative;
+    background: grey;
+    width: 0;
+    height: 0;
+    bottom: 656px;
+    left: 780px;
+}
+#botas3 {
+    position: relative;
+    background: grey;
+    width: 0;
+    height: 0;
+    bottom: 756px;
+    left: 910px;
+}
+#botas4 {
+    position: relative;
+    background: grey;
+    width: 0;
+    height: 0;
+    bottom: 856px;
+    left: 1040px;
+}
+#botas5 {
+    position: relative;
+    background: grey;
+    width: 0;
+    height: 0;
+    bottom: 956px;
+    left: 1170px;
+}
+#botas6 {
+    position: relative;
+    background: grey;
+    width: 0;
+    height: 0;
+    bottom: 1056px;
+    left: 1300px;
+}
+#botas7 {
+    position: relative;
+    background: grey;
+    width: 0;
+    height: 0;
+    bottom: 1156px;
+    left: 1430px;
+}
+#arma1danio {
+    font-size: x-large;
+    position: relative;
+    color: white;
+    background-color: black;
+    width: 100px;
+    left: 650px;
+    bottom: 1308px;
+    visibility: hidden;
+}
+#cerrarsesion {
+    position: relative;
+    top: 1000px;
 }

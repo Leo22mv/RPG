@@ -2,14 +2,17 @@
 <html>
 <head>
     <title>RPG</title>
-    <link rel="stylesheet" href="css/lvl2.css">
-    <script src="js/lvl2.js"></script>
+    <link rel="stylesheet" href="css/lvl5.css">
+    <script src="js/lvl5.js"></script>
 </head>
 <body>
     <div id="fondo">
         <div id="puerta"></div>
         <div id="player">
-            <p id="vida">Vida: 100/100</p>
+            <p id="vida">Vida: 145/145</p>
+            <div id="pechera"></div>
+            <div id="botas"></div>
+            <div id="casco"></div>
             <div id="arma"></div>
         </div>
         <div id="suelo">
@@ -22,28 +25,28 @@
             <div id="icasco" onclick="abrirCascos()"><img src="img/cascos.jpg" width="0px"></div>
             <div id="ipechera" onclick="abrirPecheras()"><img src="img/pecheras.jpg" width="0px"></div>
             <div id="ibotas" onclick="abrirBotas()"><img src="img/botas.jpg" width="0px"></div>
-            <div id="arma1" onclick="seleccionarArma1()"><img src="img/arma1s.jpg" width="0px"></div>
-            <div id="arma2" onclick="seleccionarArma2()"><img src="img/arma2.jpg" width="0px"></div>
-            <div id="arma3" onclick=""></div>
+            <div id="arma1" onclick="seleccionarArma1()"><img src="img/arma1.jpg" width="0px"></div>
+            <div id="arma2" onclick="seleccionarArma2()"></div>
+            <div id="arma3" onclick="seleccionarArma3()"><img src="img/arma3.jpg" width="0px"></div>
             <div id="arma4" onclick=""></div>
             <div id="arma5" onclick=""></div>
             <div id="arma6" onclick=""></div>
             <div id="arma7" onclick=""></div>
-            <div id="casco1" onclick=""></div>
+            <div id="casco1" onclick="seleccionarCasco1()"><img src="img/casco1.jpg" width="0px"></div>
             <div id="casco2" onclick=""></div>
             <div id="casco3" onclick=""></div>
             <div id="casco4" onclick=""></div>
             <div id="casco5" onclick=""></div>
             <div id="casco6" onclick=""></div>
             <div id="casco7" onclick=""></div>
-            <div id="pechera1" onclick=""></div>
+            <div id="pechera1" onclick="seleccionarPechera1()"><img src="img/pechera1s.jpg" width="0px"></div>
             <div id="pechera2" onclick=""></div>
             <div id="pechera3" onclick=""></div>
             <div id="pechera4" onclick=""></div>
             <div id="pechera5" onclick=""></div>
             <div id="pechera6" onclick=""></div>
             <div id="pechera7" onclick=""></div>
-            <div id="botas1" onclick=""></div>
+            <div id="botas1" onclick="seleccionarBotas1()"><img src="img/botas1.jpg" width="0px"></div>
             <div id="botas2" onclick=""></div>
             <div id="botas3" onclick=""></div>
             <div id="botas4" onclick=""></div>
@@ -52,6 +55,9 @@
             <div id="botas7" onclick=""></div>
             <div id="arma1danio"><p>Daño:60</p></div>
             <div id="arma2danio"><p>Daño:80</p></div>
+            <div id="pechera1vida"><p>Vida+45</p></div>
+            <div id="casco1vida"><p>Vida+35</p></div>
+            <div id="botas1vida"><p>Vida+20</p></div>
         </div>
         <div id="primerpiso"></div>
         <div id="segundopiso"></div>
@@ -60,10 +66,31 @@
         <div id="quintopiso"></div>
         <div id="sextopiso"></div>
         <div id="septimopiso"></div>
-        <div id="enemigo"><p id="vidaene">Vida: 100/100</p></div>
-        <div id="enemigo2"><p id="vidaene2">Vida: 250/250</p> <div id="armaen"></div> </div>
+        <div id="octavopiso"></div>
+        <div id="novenopiso"></div>
+        <div id="enemigo">
+            <p id="vidaene">Vida: 50/50</p>
+            <div id="cascoen"></div>
+            <div id="armaen"></div>
+            <div id="pecheraen"></div>
+            <div id="botasen"></div>
+        </div>
+        <div id="enemigo2"><p id="vidaene2">Vida: 500/500</p></div>
+        <div id="casquito"></div>
+        <div id="enemigo3"><p id="vidaene3">Vida: 500/500</p></div>
+        <div id="botitas"></div>
+        <div id="enemigo4"><p id="vidaene4">Vida: 500/500</p></div>
+        <div id="decimopiso"></div>
+        <div id="onceavopiso"></div>
+        <div id="doceavopiso"></div>
         <div id="armita"></div>
-        <div id="enemigo3"><p id="vidaene3">Vida: 100/100</p></div>
-    </div>
+        <div id="vidita"><img src="img/vidita.png" width="30px"></div>
+        <div id="fila1"></div>
+        <div id="fila2"></div>
+        <div id="pincho1"><img src="img/pincho1.png" width="25px"></div>
+        <div id="pincho2"><img src="img/pincho2.png" width="25px"></div>
+        <div id="pinchos1"><img src="img/pinchos1.png" height="25px"></div>
+        <div id="pinchos2"><img src="img/pinchos2.png" height="25px"></div>
+    </div> 
 </body>
 </html>

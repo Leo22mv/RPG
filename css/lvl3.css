@@ -12,43 +12,43 @@
 }
 #primerpiso {
     background: green;
-    width: 250px;
+    width: 950px;
     height: 20px;
     position: relative;
     top: 302px;
-    left: 662px;
+    left: 362px;
 }
 #segundopiso {
     background: green;
-    width: 250px;
+    width: 350px;
     height: 20px;
     position: relative;
-    top: 152px;
-    left: 512px;
+    top: 22px;
+    left: 462px;
 }
 #tercerpiso {
     background: green;
-    width: 250px;
+    width: 495px;
     height: 20px;
     position: relative;
     top: 2px;
-    left: 325px;
+    left: 1220px;
 }
 #cuartopiso {
     background: green;
-    width: 250px;
+    width: 55px;
     height: 20px;
     position: relative;
     bottom: 148px;
-    left: 110px;
+    left: 1660px;
 }
 #quintopiso {
     background: green;
-    width: 590px;
+    width: 540px;
     height: 20px;
     position: relative;
     bottom: 298px;
-    left: 210px;
+    left: 1210px;
 }
 #sextopiso {
     background: green;
@@ -56,15 +56,30 @@
     height: 20px;
     position: relative;
     bottom: 188px;
-    left: 850px;
+    left: 800px;
 }
 #septimopiso {
     background: green;
-    width: 525px;
+    width: 55px;
     height: 20px;
     position: relative;
     top: 52px;
     left: 1225px;
+}
+#octavopiso {
+    background: green;
+    width: 300px;
+    height: 20px;
+    position: relative;
+    bottom: 228px;
+    left: 212px;
+}
+#novenopiso {
+    background: green;
+    width: 300px;
+    height: 20px;
+    position: relative;
+    bottom: 378px;
 }
 #player {
     background: black;
@@ -84,10 +99,10 @@
 }
 #arma {
     top: 35px;
-    background: grey;
-    border: 2px solid red;
-    width: 30px;
-    height: 10px;
+    background: darkblue;
+    border: 2px solid white;
+    width: 45px;
+    height: 8px;
     position: relative;
     transition: all 0.3s;
 }
@@ -96,17 +111,16 @@
     width: 25px;
     height: 70px;
     position: relative;
-    top: 198px;
-    left: 367px;
+    top: 36px;
+    left: 749px;
     transition: all 0.3s;
 }
 #vidaene {
-    font-size: x-large;
+    background: black;
+    border: 1px solid white;
     position: relative;
     top: 75px;
     right: 33px;
-    background: black;
-    border: 1px solid white;
     width: 100px;
     color: white;
     /* font-size: 20px; */
@@ -116,37 +130,35 @@
     width: 25px;
     height: 70px;
     position: relative;
-    bottom: 416px; 
-    left: 1192px;
+    bottom: 310px; 
+    left: 1272px;
     transition: all 0.3s;
 }
 #vidaene2 {
-    font-size: x-large;
+    background: black;
+    border: 1px solid white;
     position: relative;
     top: 75px;
     right: 33px;
-    background: black;
-    border: 1px solid white;
     width: 100px;
     color: white;
     /* font-size: 20px; */
 }
 #enemigo3 {
-    background-color: black;
+    background-color: rgb(80, 80, 80);
     width: 25px;
     height: 70px;
     position: relative;
-    bottom: 689px; 
-    left: 670px;
+    bottom: 526px; 
+    left: 925px;
     transition: all 0.3s;
 }
 #vidaene3 {
-    font-size: x-large;
+    background: black;
+    border: 1px solid white;
     position: relative;
     top: 75px;
     right: 33px;
-    background: black;
-    border: 1px solid white;
     width: 100px;
     color: white;
     /* font-size: 20px; */
@@ -184,15 +196,6 @@
     bottom: 56px;
 
 }
-#bajar {
-    background: green;
-    width: 100px;
-    height: 100px;
-    position: relative;
-    left: 390px;
-    bottom: 256px;
-
-}
 #atacar {
     /* background-image: url("atacar.jpg"); */
      /* repeat-x 0px 0px;
@@ -219,17 +222,7 @@
     width: 10px;
     height: 80px;
     position: relative;
-    top: 402px;
-    left: 1745px;
-}
-#armita {
-    background: darkblue;
-    border: 2px solid white;
-    width: 8px;
-    height: 45px;
-    position: relative;
-    left: 518px;
-    bottom: 595px;
+    top: 12px;
 }
 #armaen {
     border: 2px solid black;
@@ -238,7 +231,7 @@
     height: 10px;
     position: relative;
     right: 20px;
-    bottom: 60px;
+    bottom: 20px;
     transition: all 0.3s;
 }
 #iarma {
@@ -503,9 +496,8 @@
     background-color: black;
     width: 100px;
     left: 650px;
-    bottom: 1308px;
+    bottom: 1290px;
     visibility: hidden;
-    font-size: x-large;
 }
 #arma2danio {
     position: relative;
@@ -513,7 +505,6 @@
     background-color: black;
     width: 100px;
     left: 780px;
-    bottom: 1359px;
+    bottom: 1325px;
     visibility: hidden;
-    font-size: x-large;
 }
